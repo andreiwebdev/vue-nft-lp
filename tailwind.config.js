@@ -7,6 +7,9 @@ module.exports = {
         'sora': ['Sora', 'sans-serif'],
         'outfit': ['Outfit', 'sans-serif'],
       },
+      backgroundImage: {
+        'hero': "url('/src/assets/background.jpg')",
+      },
     },
   },
   plugins: [],
