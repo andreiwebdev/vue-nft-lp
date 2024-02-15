@@ -1,5 +1,5 @@
 <template>
-    <container-wrapper>
+    <container-wrapper container-classes="mb-20 lg:mb-40">
         <div
             class="text-center lg:text-left lg:flex lg:justify-between lg:items-center"
         >

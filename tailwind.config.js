@@ -9,6 +9,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url('/src/assets/background.jpg')",
+        'nftPlaceholder': "url('/src/assets/nft-placeholder.png')",
       },
     },
   },
