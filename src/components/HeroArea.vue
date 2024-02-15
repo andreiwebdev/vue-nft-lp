@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-[50vh] w-full bg-hero bg-cover bg-fixed bg-center flex flex-col items-center justify-center text-white lg:justify-end lg:pb-[60px]"
+    class="h-[50vh] w-full bg-hero bg-cover bg-fixed bg-center flex flex-col items-center justify-center text-white lg:justify-end lg:pb-[60px] mb-10 lg:mb-40"
   >
     <container-wrapper container-classes="lg:grid lg:grid-cols-2 lg:relative">
       <div class="relative">
