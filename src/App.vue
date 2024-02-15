@@ -1,9 +1,14 @@
 <template>
-  <h1 class="text-red-500 text-4xl">Hello Vue!</h1>
+    <navbar-component />
 </template>
 
 <script>
+import NavbarComponent from "./components/Navbar.vue";
+
 export default {
-  name: 'App',
-}
+    name: "App",
+    components: {
+        NavbarComponent,
+    },
+};
 </script>
