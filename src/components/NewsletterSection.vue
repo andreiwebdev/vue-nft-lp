@@ -8,9 +8,9 @@
                 the party.
             </p>
         </div>
-        <form @submit.prevent="console.log('form submited')" class="flex items-center max-w-2xl mx-auto gap-2 text-sora">
-            <input class="border border-gray-300 rounded-[4px] p-4 text-sm focus:outline-none placeholder:text-gray-300 w-[80%]" placeholder="Enter email address" type="email">
-            <button class="bg-black text-white h-full py-4 rounded-[4px] text-sm uppercase w-[20%]" type="submit">Subscribe</button>
+        <form @submit.prevent="console.log('form submited')" class="flex items-center max-w-2xl mx-auto gap-2 text-sora flex-wrap sm:flex-nowrap">
+            <input class="border border-gray-300 rounded-[4px] p-4 text-sm focus:outline-none placeholder:text-gray-300 w-full sm:w-[80%]" placeholder="Enter email address" type="email">
+            <button class="bg-black text-white h-full py-4 rounded-[4px] text-sm uppercase w-full sm:w-[20%]" type="submit">Subscribe</button>
         </form>
     </container-wrapper>
 </template>
