@@ -1,6 +1,7 @@
 <template>
     <container-wrapper container-classes="mb-20 lg:mb-40">
         <div
+            id="nfts"
             class="text-center lg:text-left lg:flex lg:justify-between lg:items-center"
         >
             <div class="mb-20 lg:mb-0">
