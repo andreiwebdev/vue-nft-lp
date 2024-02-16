@@ -1,6 +1,7 @@
 <template>
     <div
-        class="p-3 h-96 w-full bg-nftPlaceholder bg-cover bg-no-repeat bg-center relative z-[2] xl:h-[660px] cursor-pointer hover:shadow-2xl transition-all"
+        :style="`background-image: url(${image})`"
+        :class="`p-3 h-96 w-full bg-cover bg-no-repeat bg-center relative z-[2] xl:h-[660px] cursor-pointer hover:shadow-2xl transition-all`"
     >
         <div class="border-[2px] border-black w-full h-full">
             <div class="bg-white w-[50%] absolute left-0 bottom-0 p-3">
@@ -9,7 +10,7 @@
                         Collectible
                     </div>
                     <div class="text-[20px] font-semibold xl:text-2xl">
-                        MTNFT-01
+                        MTNFT-{{ id }}
                     </div>
                 </div>
             </div>
@@ -23,5 +24,6 @@
 <script>
 export default {
     name: "NftItem",
+    props: ['id', 'image'],
 };
 </script>
