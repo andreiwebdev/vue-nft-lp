@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-[50vh] w-full bg-hero bg-cover bg-fixed bg-center flex flex-col items-center justify-center text-white lg:justify-end lg:pb-[60px] mb-10 lg:mb-40"
+    class="h-[70vh] w-full bg-hero bg-cover bg-fixed bg-center flex flex-col items-center justify-center text-white lg:justify-end lg:pb-[60px] mb-10 lg:mb-40"
   >
     <container-wrapper container-classes="lg:grid lg:grid-cols-2 lg:relative">
       <div class="relative">
@@ -14,7 +14,7 @@
         </a>
       </div>
       <img
-        class="hidden lg:block lg:absolute lg:w-[500px] lg:-top-[200px] lg:right-0 xl:w-[700px] xl:-top-[300px]"
+        class="hidden lg:block lg:absolute lg:w-[500px] lg:-top-[112px] lg:right-0 xl:w-[700px] xl:-top-[200px]"
         :src="orbImage"
         alt="orb graphic"
       />
